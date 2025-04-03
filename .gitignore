@@ -1,0 +1,37 @@
+# 🛑 Ambiente Virtual (Python)
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🛑 Configuração e Credenciais
+.env
+*.sqlite3  # Ignorar banco de dados SQLite
+db.sqlite3
+
+# 🛑 Migrations Compiladas (caso tenha arquivos não usados)
+*/migrations/*.pyc
+
+# 🛑 Logs e Arquivos Temporários
+*.log
+*.tmp
+*.swp
+
+# 🛑 Django Static e Media Files (evitar arquivos estáticos no Git)
+staticfiles/
+media/
+
+# 🛑 Node.js e Next.js
+node_modules/
+.next/
+out/
+
+# 🛑 Dependências e Builds
+package-lock.json
+yarn.lock
+dist/
+build/
+
+# 🛑 Arquivos docs
+.txt

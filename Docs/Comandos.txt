@@ -1,0 +1,3 @@
+Comandos: 
+- python manage.py makemigrations - Adiciona tabelas ao banco;
+- python manage.py migrate - Cria o banco com as tabelas;

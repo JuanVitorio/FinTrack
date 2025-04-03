@@ -1,0 +1,27 @@
+Documento de visão:
+Objetivo:
+	Fazer um sistema web que sirva para registrar e gerenciar
+receitas e despesas, visualizar gráficos de gastos mensais e definir
+metas financeiras
+
+Perfis de usuários:
+- Usuário comum:
+	Deve poder criar sua conta e registrar suas informações
+financeiras. Ele terá acesso a parte superficial do site, ou seja, telas
+comuns a qualquer usuário.
+
+Requisitos Funcionais:
+- Manter receita e despesa;
+- Manter metas;
+- Manter gastos mensais;
+- Manter login;
+
+Requisitos não funcionais:
+- Designe agradável;
+- Manutenabilidade;
+- Segurança;
+
+Riscos:
+- Falta de segurança no banco de dados;
+
+	
