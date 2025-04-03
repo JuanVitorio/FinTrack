@@ -34,4 +34,4 @@ dist/
 build/
 
 # 🛑 Arquivos docs
-.txt
+*.txt
