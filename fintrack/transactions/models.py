@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class Transacao(models.Model):
+class Transaction(models.Model):
     # Opções de transação
     CATEGORY_CHOICE = [
         ('income', 'Receita'),
@@ -17,6 +17,6 @@ class Transacao(models.Model):
     def __str__(self):
         return f"{self.name} - {self.amount}"
     
-    
+
 
     
