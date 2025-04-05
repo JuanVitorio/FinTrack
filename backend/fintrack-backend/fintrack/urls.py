@@ -21,5 +21,5 @@ from rest_framework.routers import DefaultRouter
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('api.urls')), # com o include, eu consigo incluir as rotas da pasta api.
+    path('api/', include('api.urls')), # com o include, eu consigo incluir as rotas da pasta api.
 ]

@@ -1,7 +1,7 @@
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from transactions.models import Transaction
-from .serializers import TransactionSerializer
+from transactions.models import *
+from .serializers import *
 
 @api_view(['GET'])
 def get_data(request): # Pegar dados por GET
